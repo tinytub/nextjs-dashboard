@@ -1,5 +1,4 @@
 {
-  "baseUrl": ".",
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -20,7 +19,7 @@
       }
     ],
     "paths": {
-      "@/app/*": ["arp/*"]
+      "@/*": ["./*"]
     }
   },
   "include": [
